@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(226, 219, 177);
+}
+
+p {
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+  align-items: stretch;
+  color: green;
+}
+
+h1 {
+  margin-left: 37%;
+  font-family: "comic Sans MS", Arial, Helvetica, sans-serif;
+}
+
+.button {
+  border: none;
+  margin-left: 39%;
+  text-align: center;
+  display: inline-block;
+  font-family: megrim, sans-serif;
+  font-size: 30px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.button1 {
+  color: darkgreen;
+}
+
+.button1:hover {
+  color: red;
+}

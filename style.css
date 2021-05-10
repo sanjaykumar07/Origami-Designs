@@ -1,0 +1,91 @@
+.header h1 {
+  margin-left: 540px;
+  font-family: "corbel", sans-serif;
+  font-size: 50px;
+  color: rgb(252, 68, 56);
+}
+p {
+  margin-left: -10px;
+  font-family: "corbel", sans-serif;
+  font-size: x-large;
+  color: #5cdb95;
+}
+
+body {
+  /*background-image: linear-gradient(	#FF2400   , #b8bc86   ,#008080   );*/
+  background-color: black;
+}
+#head {
+  color: purple;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item {
+  border-color: white;
+  border-style: double;
+  border-radius: 20px;
+}
+
+.item:hover {
+  background-color:  orange;
+}
+#panda {
+  margin-top: 5%;
+}
+
+#cicada {
+  margin-top: 5%;
+}
+
+#crane {
+  margin-top: 5%;
+}
+
+#butterfly {
+  margin-top: 5%;
+}
+
+.button {
+  border: none;
+  color: white;
+  margin: 0px 170px;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-family: megrim, sans-serif;
+  font-size: 30px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  margin-left: 42%;
+}
+
+.button1 {
+  color: red;
+}
+
+.button1:hover {
+  color: white;
+}
+
+
